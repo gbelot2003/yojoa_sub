@@ -42,15 +42,15 @@
  */
 global $language_content; 
 if($language_content->language == "es"){
-	$hotels = "/atlantida/es/con-quien/hoteles";
-	$rest = "/atlantida/es/con-quien/restaurantes";
-	$tour = "/atlantida/es/con-quien/tour-operadores";
-	$tran = "/atlantida/es/con-quien/transportes";
+	$hotels = "/lagodeyojoa/es/con-quien/hoteles";
+	$rest = "/lagodeyojoa/es/con-quien/restaurantes";
+	$tour = "/lagodeyojoa/es/con-quien/tour-operadores";
+	$tran = "/lagodeyojoa/es/con-quien/transportes";
 } else {
-	$hotels = "/atlantida/en/with-whom/hotels";
-	$rest = "/atlantida/en/with-whom/restarants";
-	$tour = "/atlantida/en/with-whom/tour-operator";
-	$tran = "/atlantida/en/with-whom/transports";
+	$hotels = "/lagodeyojoa/en/with-whom/hotels";
+	$rest = "/lagodeyojoa/en/with-whom/restarants";
+	$tour = "/lagodeyojoa/en/with-whom/tour-operator";
+	$tran = "/lagodeyojoa/en/with-whom/transports";
 }
 
 $arges = (int) arg(1); 
