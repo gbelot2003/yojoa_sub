@@ -98,6 +98,18 @@
 	background:rgba(0,157, 224, 0.5) !important;
 }
 
+.taxonomia {
+	display:inline;
+	float:left;
+	width:370px;
+	max-height:320px;
+	height: 320px;
+}
+
+.taxonomia img {
+	width:800px;
+	height:600px;
+}
 
 /***********************************************************************************************/
 
