@@ -26,11 +26,8 @@
 ?>
 <div class="views-row-content">
 	<div class="grid-block fade">
-		
-			<?php print $fields['field_image']->content ?>		
+		<?php print $fields['field_image']->content ?>		
 	</div>
 	<h5><?php print $fields['title']->content ?></h5>
-	
-		<p><?php print $fields['field_ref_destninos']->content ?></p>
 </div>
 
