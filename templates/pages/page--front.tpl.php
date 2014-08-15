@@ -17,7 +17,7 @@
 			
 			<div id="font-block-2" class="large-12 columns">
 						
-				<?php include("frontblock2.tpl.php") ?>
+				<?php include("frontblock3.tpl.php") ?>
 							
 			</div>
 			
@@ -127,18 +127,18 @@
     <section class="l-footer-columns">
       <div class="row">
         <?php if (!empty($page['footer_firstcolumn'])): ?>
-          <div class="footer-first large-3 columns">
+          <div class="footer-first large-3 small-6 columns">
             <?php print render($page['footer_firstcolumn']); ?>
           </div>
         <?php endif; ?>
         <?php if (!empty($page['footer_secondcolumn'])): ?>
-          <div class="footer-second large-3 columns">
+          <div class="footer-second large-3 small-6 columns">
             <?php print render($page['footer_secondcolumn']); ?>
           </div>
         <?php endif; ?>
 
         <?php if (!empty($page['footer_fourthcolumn'])): ?>
-          <div class="footer-fourth large-6 columns">
+          <div class="footer-fourth large-6 small-12 columns">
             <?php print render($page['footer_fourthcolumn']); ?>
           </div>
         <?php endif; ?>
@@ -154,7 +154,7 @@
 		</div>
 	</section>
 	<?php endif; ?>
-
+		<?php  include("modal.tpl.php"); ?>
   <!--.l-footer-->
 	  <?php include("footer.tpl.php"); ?>
   <!--/.footer-->

@@ -12,13 +12,13 @@
                 <li class="flickr"><a href="<?php print $flickr; ?>"><i class="fa fa-flickr"></i></a></li>
               <?php endif; ?>
               
-                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="facebook"><a href="http://www.facebook.com/honduras.travel"><i class="fa fa-facebook"></i></a></li>
               
               
-                <li class="google_plus"><a href="#"><i class="fa fa-googleplus"></i></a></li>
+                <li class="google_plus"><a href="http://www.instagram.com/hondurastravel"><i class="fa fa-instagram"></i></a></li>
              
              
-                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="twitter"><a href="http://www.twitter.com/HN_Travel"><i class="fa fa-twitter"></i></a></li>
               
               <?php if( !empty($vimeo) ): ?>
                 <li class="vimeo"><a href="<?php print $vimeo; ?>"><i class="fa fa-vimeo-square"></i></a></li>
@@ -27,7 +27,7 @@
                 <li class="github"><a href="<?php print $github; ?>"><i class="fa fa-github"></i></a></li>
               <?php endif; ?>             
        
-                <li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                <li class="pinterest"><a href="http://www.pinterest.com/HNtravel"><i class="fa fa-pinterest"></i></a></li>
  
               <?php if( !empty($dribble) ): ?>
                 <li class="dribbble"><a href="<?php print $dribble; ?>"><i class="fa fa-dribbble"></i></a></li>
@@ -59,9 +59,7 @@
             <?php if ($top_bar_main_menu) :?>
               <?php print $top_bar_main_menu; ?>
             <?php endif; ?>
-            <?php if ($top_bar_secondary_menu) :?>
-              <?php print $top_bar_secondary_menu; ?>
-            <?php endif; ?>
+
             
             <?php if ($page['top_block']): ?>
             
@@ -105,13 +103,7 @@
         </nav> <!-- /#main-menu -->
       <?php endif; ?>
 
-      <?php if ($alt_secondary_menu): ?>
-        <section class="this">
-          <nav id="secondary-menu" class="navigation" role="navigation">
-            <?php print $alt_secondary_menu; ?>
-          </nav> <!-- /#secondary-menu -->
-        </section>
-      <?php endif; ?>
+
         <!-- Muestra -->
     </section>
     <?php endif; ?>

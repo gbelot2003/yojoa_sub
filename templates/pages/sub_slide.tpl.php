@@ -32,7 +32,7 @@
 							<div class="inner-slide"> 
 							<img src="http://honduras.travel/sites/default/files/carrucel/occidente_carrucel.jpg" alt="">
 							<div class="fullwidth-title">
-								<a href="http://honduras.travel/occidente" class="oran" ><strong><?php print t("Copon Ruinas and the West") ?></strong></a>
+								<a href="http://honduras.travel/occidente" class="oran" ><strong><?php print t("Copan Ruinas and the West") ?></strong></a>
 									<span><?php print t("The Maya world, the Lenca tradition and colonial towns, with the aroma of tobacco and high-altitude coffee, up among wooded summits") ?>.</span>
 								</div>
 							</div> 

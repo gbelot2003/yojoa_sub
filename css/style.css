@@ -641,22 +641,6 @@ fieldset {
 /**************************************************/
 
 
-@media (max-width: 1024px) {
-	.top-bar {
-		height: 65px;
-	}
-	.top-bar .name {
-		height: 65px;
-	}
-	.top-bar .name h1 a {
-		width: 15rem;
-	}
-	
-	.front .view-display-id-block_2 {
-		margin-top: 4.5rem !important;
-	}
-}
-
 h4, h3, h5, .title {
 	font-family: Hondurean;
 }
@@ -1521,11 +1505,19 @@ a.transportes {
 }
 
 /************ iconos *************************/
+.icons { /** clase para icono de video */
+	position: absolute;
+	bottom: 107px;
+ 	right: 44%;
+ 	font-size: 5rem;
+}
+
 .slide-ico {
 	position: absolute;
 	bottom: 10px;
 	right: 91%;
 }
+
 
 .icos {
 	display: block;
@@ -2043,11 +2035,49 @@ a.transportes {
 	.half img {
 		margin:-10px 0px -10px 0px !important;
 	}
+
+	/******************************* FIX RESPONSIVE FOR IPAD - TABLET *******************************/	
+
+	.sponsor1, .sponsor2, .sponsor3 {
+	width:100%;
+	float:none;
+	text-align: -webkit-center;
+	}
+
+	.premium, .lpremium, .lpremium-2, .lpremium-3, .sponsor {
+	width:100%;
+	}
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
+	.sponsor1, .sponsor2, .sponsor3 {
+	width:100%;
+	float:none;
+	text-align: -webkit-center;
+	}
+
+	.premium, .lpremium, .lpremium-2, .lpremium-3, .sponsor {
+	width:50%;
+	}	
+	
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 
 
+@media (max-width: 940px) {
+	.top-bar {
+		height: 65px;
+	}
+	.top-bar .name {
+		height: 65px;
+	}
+	.top-bar .name h1 a {
+		width: 15rem;
+	}
+	
+	.front .view-display-id-block_2 {
+		margin-top: 4.5rem !important;
+	}
+}
+/******************************* END FIX RESPONSIVE FOR IPAD - TABLET *******************************/
